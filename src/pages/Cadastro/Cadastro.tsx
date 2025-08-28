@@ -1,8 +1,11 @@
 import Formulario from '../../components/Formulário'
+import { Container } from '../../styles'
 
 const Cadastro = () => (
   <>
-    <Formulario />
+    <Container>
+      <Formulario />
+    </Container>
   </>
 )
 

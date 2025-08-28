@@ -1,10 +1,13 @@
-import { Link } from 'react-router-dom'
 import ListaDeContatos from '../../components/ListaDeContatos'
+import { BotaoLink, Container, Titulo } from '../../styles'
 
 const Home = () => (
   <>
-    <Link to="/Cadastro">Adicionar novo contato</Link>
+  <Titulo>Lista de Contatos</Titulo>
+  <Container>
+    <BotaoLink to="/Cadastro">Adicionar novo contato</BotaoLink>
     <ListaDeContatos />
+  </Container>
   </>
 )
 
